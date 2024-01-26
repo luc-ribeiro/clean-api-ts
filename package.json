@@ -10,7 +10,7 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.ts",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,6 +24,11 @@
     "lint-staged": "^15.2.0",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@types/validator": "^13.11.8"
+  },
+  "dependencies": {
+ 
+    "validator": "^13.11.0"
   }
 }
