@@ -7,7 +7,8 @@ const config: Config = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  roots: ['<rootDir>/src']
+  roots: ['<rootDir>/src'],
+  preset: '@shelf/jest-mongodb'
 }
 
 export default config
