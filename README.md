@@ -7,17 +7,21 @@
 
 # **Clean Node API**
 
+<div align="right">
+    Clique <a href="https://github.com/luc-ribeiro/clean-api-ts/blob/main/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
+
 ---
 
-Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy.
+This API is part of Professor Rodrigo Manguinho's (Mango) training course on Udemy.
 
-Uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programação orientada a testes) como metodologia de trabalho, Clean Architecture para fazer a distribuição de responsabilidades em camadas, sempre seguindo os princípios do SOLID e, sempre que possível, aplicando Design Patterns para resolver alguns problemas comuns.
+An API with a well-defined and decoupled architecture, using TDD (Test-Driven Development) as a working methodology, Clean Architecture to distribute responsibilities into layers, always following SOLID principles, and applying Design Patterns whenever possible to solve common problems.
 
-> ## APIs construídas no treinamento
+> ## APIs built in the training
 
-[Cadastro](./requirements/signup.md)
+[Sign Up](./requirements/signup.md)
 
-> ## Princípios
+> ## Principles
 
 * Single Responsibility Principle (SRP)
 * Open Closed Principle (OCP)
@@ -43,7 +47,7 @@ Uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programa
 * Builder
 * Singleton
 
-> ## Metodologias e Designs
+> ## Methodologies and Designs
 
 * TDD
 * Clean Architecture
@@ -57,14 +61,14 @@ Uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programa
 * Continuous Delivery
 * Continuous Deployment
 
-> ## Bibliotecas e Ferramentas
+> ## Libraries and Tools
 
 * NPM
 * Typescript
 * Git
 * Docker
 * Jest
-* MongoDb
+* MongoDB
 * Travis CI
 * Swagger
 * Bcrypt
@@ -73,17 +77,17 @@ Uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programa
 * Coveralls
 * Validator
 * Apollo Server Express
-* Graphql
-* Graphql ISO Date
+* GraphQL
+* GraphQL ISO Date
 * Supertest
 * Husky
 * Lint Staged
 * Eslint
-* Standard Javascript Style
+* Standard JavaScript Style
 * Sucrase
 * Nodemon
 * Rimraf
-* In-Memory MongoDb Server
+* In-Memory MongoDB Server
 * MockDate
 * Module-Alias
 * Copyfiles
@@ -91,19 +95,19 @@ Uma API com uma arquitetura bem definida e desacoplada, utilizando TDD (programa
 * Bson ObjectId
 * Apollo Server Integration Testing
 
-> ## Features do Node
+> ## Node Features
 
-* Documentação de API com Swagger
-* API Rest com Express
-* Log de Erro
-* Segurança (Hashing, Encryption e Encoding)
+* API documentation with Swagger
+* REST API with Express
+* Error Logging
+* Security (Hashing, Encryption, and Encoding)
 * Middlewares
 
-> ## Features de Testes
+> ## Testing Features
 
-* Testes Unitários
-* Testes de Integração (API Rest & GraphQL)
-* Cobertura de Testes
+* Unit Tests
+* Integration Tests (REST API & GraphQL)
+* Test Coverage
 * Test Doubles
 * Mocks
 * Stubs
